@@ -1,0 +1,13 @@
+/* reset file that keeps styling consistent on my browser*/
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
