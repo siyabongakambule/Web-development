@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - B&D Auto Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: grey;
+        }
+        /*grid format*/
+        .product-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .product-gallery img {
+            max-width: 300px;
+            height: auto;
+            border: white;
+            border-radius: 8px;
+        }
+
+        .product-item {
+            text-align: center;
+            color: white;
+            max-width: 320px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="products.html">Products</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!--product selection-->
+
+    
+    <scetion>
+        <h2>Our Car Parts</h2>
+        <p>We supply high quality car parts at affordable prices, browse our main categories below and find the best suitable item for your vehicle to ensure its maximum best performance.</p>
+
+        <input type="text" id="search" placeholder="search products.....">
+        <!--gallery layout-->
+        <div class="grid-layout">
+            
+        </div>
+        <div class="product-gallery">
+
+            <div class="product-item">
+                <img src="images/products/p1.jpg.jpg" alt="Brake pads">
+                <h3>Brake pads</h3>
+                <p><em>Best brake pads for daily driving.</em></p>
+                <p class="price">Price: R450</p>
+            </div>
+
+            <div class="product-item">
+                <img src="images/products/p3.jpg.jpg" alt="Alternator">
+                <h3>Alternator</h3>
+                <p><em>Quality alternator to keep the battery charged and pass the electric current through the car.</em></p>
+                <p class="price">Price: R4,500</p>
+            </div>
+
+            <div class="product-item">
+                <img src="images/products/p4.jpg.jpg" alt="Spark plugs">
+                <h3>Spark plugs</h3>
+                <p><em>Quality spark plugs</em></p>
+                <p class="price">Price: R100</p>
+            </div>
+
+            <div class="product-item">
+                <img src="images/products/p7.jpg.jpg" alt="CV joint">
+                <h3>CV Joint</h3>
+                <p><em>Quality CV joints to transfer rotational power</em></p>
+                <p class="price">Price: R900</p>
+            </div>
+
+            <div class="product-item">
+                <img src="images/products/p8.jpg.jpg" alt="Fan belt">
+                <h3>Fan belt</h3>
+                <p><em>Strong and quality fab belt</em></p>
+                <p class="price">Price: R500</p>
+            </div>
+
+            <div class="product-item">
+                <img src="images/products/p9.jpg.jpg" alt="Battery">
+                <p><em>Battery</em></p>
+                <p class="price">Price: R1,100</p>
+            </div>
+        </div>
+
+    </scetion>
+    <footer>
+        <p>&copy; 2025 B&D Auto Shop - Vereeniging</p>
+    </footer>
+    
+</body>
+</html>
